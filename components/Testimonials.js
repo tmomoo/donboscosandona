@@ -20,9 +20,8 @@ const Testimonials = ({ testimonials, cardWidth, imageUrl }) => {
                 <p>{testimonial.text}</p>
               </div>
               <h3>{testimonial.name}</h3>
-
               <div className={styles.cardBody}>
-                <p>{testimonial.social}</p>
+                <p>{testimonial.social}</p> 
               </div>
             </div>
             </Grid>

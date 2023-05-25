@@ -24,7 +24,7 @@ export default function Footer(props) {
             >
                 <Container maxWidth="lg">
                     <Grid container spacing={3}>
-                        { /* Chi siamo */}
+                        { /* Community */}
                         <Grid item xs={12} lg={4}>
                             <Typography component="h1" color="White" paddingBottom="2rem">
                                 {props.title1}
