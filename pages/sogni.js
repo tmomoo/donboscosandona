@@ -16,19 +16,13 @@ export default function Pagina () {
 <Testimonials
   title="Sogni"
   description="Sogni"
-  imageUrl="https....."
+  image=""
   opacity={0.7}
   testimonials={ testimonials }
   cardWidth={ 6 }
 />
 
-<Products
-  title=''
-  description="Sogni!"
-  products={ categorie }
-  cardWidth={ 3 }
-  borderRadius="10px"
-/>
+
 
 
 
@@ -42,30 +36,57 @@ export default function Pagina () {
 
 let testimonials = [
     {
+        name: "Viaggio al centro della Terra.",
        title: "kdmnmfjk",
-       name: "Cristiano Ronaldo",
+       
+       
        channel: "@Google",
-       text: "Ringrazio l'azienda e lo staff per professionalità, disponibiltà e qualità nella professione per aver realizzato il mio sogno della Bugatti La Voiture Noire.",
-       imageUrl: "https://elcomercio.pe/resizer/_kKd2ICn-1HZfFS2dUSMro50a24=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/7ZWZDCDHPFGWDENRGTP4737STQ.jpg"
+       text: "Il nucleo terrestre a pochi metri da te, grazie a noi è possibile.",
+       imageUrl: "/images/centroterra.jpg"
     },
     {
-        name: "Dwayne Jhonson",
+        name: "Corsa spaziale.",
         channel: "@Google",
         text: "Ringrazio l'azienda e lo staff per professionalità, disponibiltà e qualità nella professione per aver realizzato il mio sogno della Bugatti La Voiture Noire",
-        imageUrl: "https://www.essence.com/wp-content/uploads/2015/03/images/2015/03/24/the-rock-shirtless-s-2.jpg?width=400"
+        imageUrl: "/images/car space.jpg"
      },
      {
-        name: "Scarlet Johanson",
+        name: "L'isola che non c'è.",
         channel: "@Google",
         text: "Ringrazio l'azienda e lo staff per avermi fatto pas",
-        imageUrl: "https://www.tentazionemakeup.it/wp-content/uploads/2013/01/022711-scarlett-johansson-hair-400.jpg"
+        imageUrl: "/images/peterpsan.jpg"
      },
      {
-        name: "Diletta Leotta",
+        name: "Esplora l'abisso.",
         channel: "@Google",
         text: "Ringrazio l'azienda e lo staff per una vacanza stupenda passata assieme al mio fidanzato e quindi di aver realizzato il mio sogno.",
-        imageUrl: "https://biographymask.com/wp-content/uploads/2021/05/Diletta-Leotta.jpg"
+        imageUrl: "/images/water.jpg"
      },
+     {
+        name: "Giurassico",
+        channel: "@Google",
+        text: "Ringrazio l'azienda e lo staff per una vacanza stupenda passata assieme al mio fidanzato e quindi di aver realizzato il mio sogno.",
+        imageUrl: "/images/dinosaurui.jpg"
+     },
+     {
+        name: "Guerre Stellari",
+        channel: "@Google",
+        text: "Ringrazio l'azienda e lo staff per una vacanza stupenda passata assieme al mio fidanzato e quindi di aver realizzato il mio sogno.",
+        imageUrl: "/images/race navicelle.jpg"
+     },
+     {
+        name: "Salpa con Jack Sparrow.",
+        channel: "@Google",
+        text: "Ringrazio l'azienda e lo staff per una vacanza stupenda passata assieme al mio fidanzato e quindi di aver realizzato il mio sogno.",
+        imageUrl: "/images/ship pirate.jpg"
+     },
+     {
+        name: "Castello di Bowser.",
+        channel: "@Google",
+        text: "Salva la principessa Peach dal cattivone Bowser.",
+        imageUrl: "/images/infernus 1.jpg"
+     },
+     
     ]
 let categorie = [
         {

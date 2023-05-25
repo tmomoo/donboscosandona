@@ -17,9 +17,10 @@ const Testimonials = ({ testimonials, cardWidth, imageUrl }) => {
                 <img src="https://i.ibb.co/yP6QVQk/virgolette.png" alt="" />
               </div>
               <div className={styles.cardBody}>
-                <p>{testimonial.text}</p>
-              </div>
               <h3>{testimonial.name}</h3>
+                
+              </div>
+              <p>{testimonial.text}</p>
               <div className={styles.cardBody}>
                 <p>{testimonial.social}</p> 
               </div>

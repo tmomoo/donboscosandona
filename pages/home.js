@@ -2,6 +2,8 @@ import Layout from "@/components/Layout";
 import LandingHero from "components/LandingHero2.js";
 import Products from "components/Products.js";
 
+import Carousel from "components/Carousel.js";
+
 export default function Pagina () {
     return (
         <Layout>
@@ -21,6 +23,7 @@ export default function Pagina () {
   borderRadius="10px"
 />
 
+<Carousel slides={slides} />
 
 
 <br>
@@ -30,26 +33,33 @@ export default function Pagina () {
     )
 }
 
+let slides =[
+   { titolo: 'Fatti un bel giro',
+    descrizione:"sajudfjuf",
+      
+    immagine:"",
+}
+]
 
 
 let categorie = [
     {
         title: "Sogno di Cristiano Ronaldo",
-        description: "",
+        description: '"Ringrazio l azienda e lo staff per professionalità, disponibiltà e qualità nella professione per aver realizzato il mio sogno della Bugatti La Voiture Noire."',
         immagineUrl: "https://elcomercio.pe/resizer/_kKd2ICn-1HZfFS2dUSMro50a24=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/7ZWZDCDHPFGWDENRGTP4737STQ.jpg",
         url: "/base",
         
     },
     {
         title: "Sogno di Dwayne Jhonson ",
-        description: "",
+        description: '"Grazie alla Dreams Island sono riuscito a diventare il più grosso del mondo grazie agli steroidi che mi hanno fornito."',
         immagineUrl: "https://www.essence.com/wp-content/uploads/2015/03/images/2015/03/24/the-rock-shirtless-s-2.jpg?width=400",
         url: "/normale"
     },
     {
         title: "Sogno di Scarlet Johanson",
-        description: "",
-        immagineUrl: "https://www.tentazionemakeup.it/wp-content/uploads/2013/01/022711-scarlett-johansson-hair-400.jpg",
+        description: '""',
+        immagine: "",
         url: "/intermedio"
     },
     {

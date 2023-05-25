@@ -6,7 +6,7 @@ export default function Pagina () {
     return (
         <Layout>
             <LandingHero
-  title='Abbonamenti'
+  title='Pagamento'
   imageUrl=""
   opacity={ 0.35 }
   height="90"
